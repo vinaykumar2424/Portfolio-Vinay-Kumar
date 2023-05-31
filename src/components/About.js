@@ -1,5 +1,5 @@
 import './about.css'
-import Img from '../images/VK.png'
+import Img from '../images/VK1.jpg'
 const About = () => {
     return (
         <div className="About">
@@ -56,15 +56,15 @@ const About = () => {
                         </div>
                         <div className='HeadingDetails'>
                             <p>Email</p>
-                            <p><a href='mailto:kumarvinay8209@gmail.com' target='_blank'>kumarvinay8209 @gmail.com</a></p>
+                            <p><a href='mailto:kumarvinay8209@gmail.com' target='_blank'>kumarvinay82 09@gmail.com</a></p>
                         </div>
                         <div className='HeadingDetails'>
                             <p>Linkedln</p>
-                            <p><a href="https://www.linkedin.com/in/vinay-kumar-912619210" target='_blank'>https://www.linkedin.com /in/vinay-kumar-912619210</a></p>
+                            <p><a href="https://www.linkedin.com/in/vinay-kumar-912619210" target='_blank'>https://www.linkedin. com/in/vinay-kumar-912619210</a></p>
                         </div>
                         <div className='HeadingDetails'>
                             <p>Instagram</p>
-                            <p><a href="https://www.instagram.com/vinay_k8287/" target='_blank'>https://www.instagram.com /vinay_k8287/</a></p>
+                            <p><a href="https://www.instagram.com/vinay_k8287/" target='_blank'>https://www.instag ram.com/vinay_k8287/</a></p>
                         </div>
                     </span>
                 </div>

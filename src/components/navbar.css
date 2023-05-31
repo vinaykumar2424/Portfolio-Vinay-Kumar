@@ -19,11 +19,9 @@ html{
     font-weight: 200;
 }
 .barIcon{
-    /* position: relative; */
     z-index: 200;
 }
 .xIcon{
-    /* position: relative; */
     display: none;
     z-index: 200;
 }
@@ -71,6 +69,7 @@ html{
     display: flex;
     align-items: center;
     z-index: 300;
+    left:17px ;
 }
 
 .PersonName {
