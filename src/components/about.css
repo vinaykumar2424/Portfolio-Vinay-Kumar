@@ -1,0 +1,78 @@
+.SeftIntro{
+    color: white;
+    font-size: 8vmin;
+    margin: 10vh 10vw 5vh 10vw;
+    text-align: left;
+    font-family: 'Cormorant', serif;
+}
+/* .line{
+    height: 1px;
+    width: 90vw;
+    content: "";
+    background-color: aliceblue;
+    left: 5vw;
+} */
+.RestDetails{
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    border-top: 1px solid rgba(255, 255, 255, 0.192);
+    margin: 10vh 2.5vw 5vh 2.5vw;
+}
+.AboutImg{
+    width: 17vw;
+    height: auto;
+    position: relative;
+    top: 20vh;
+    left: 7.5vw;
+}
+.PersonInformation{
+    position: relative;
+    width: 100%;
+    top: 20vh;
+    display: flex;
+    /* justify-content: center; */
+    /* align-items: center; */
+    text-align: left;
+    color: white;
+    margin-left: 5vw;
+    margin-right: 5vw;
+    font-family: 'Cormorant', serif;
+}
+.heading{
+    font-size: 1.4vmin;
+    letter-spacing: 2px;
+    color: rgba(255, 255, 255, 0.694);
+}
+.HeadingDetails{
+    font-size: 3vmin;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.192);
+    padding: 3vh 0;
+    letter-spacing: 2px;
+    width: auto;
+    max-width: 20vw;
+}
+.HeadingDetails p{
+    font-size: 1.5vmin;
+}
+.HeadingDetails p a{
+    color: white;
+    font-weight: 300;
+}
+.SubInformation{
+    margin:  0 3.5vw;
+}
+
+@media only screen and (max-width: 400px) {
+    .RestDetails{
+        display: flex;
+        flex-direction: column;
+        margin: 5vh 2.5vw 5vh 2.5vw;
+    }
+    .AboutImg{
+        width: 80vw;
+        height: auto;
+        position: relative;
+        top: 10vh;
+    }
+   
+  }

@@ -1,0 +1,42 @@
+body{
+    background-color: #282c34;
+    z-index: -10;
+}
+.Achieve{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.AchievementDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin: 5vh 0vw 10vh 0vw;
+}
+.AchievementImg{
+    position: relative;
+    max-width: 90vw;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+}
+.AchievementDetailed{
+    z-index: -1;
+    position: relative;
+    font-size: 3.5vmin;
+    color: white;
+    padding: 0 2vmin;
+    border-radius: 5px;
+    width: auto;
+    font-family: 'Cormorant', serif;
+    font-weight: bold;
+    text-align: center;
+    height: auto;
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.192);
+
+}

@@ -1,0 +1,213 @@
+html{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+}
+
+.Navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    padding: 5vh 0;
+    height: auto;
+    width: 100vw;
+    background-color:#282c34;
+    z-index: 30;
+}
+.Questions{
+    color: white;
+    font-weight: 200;
+}
+.barIcon{
+    /* position: relative; */
+    z-index: 200;
+}
+.xIcon{
+    /* position: relative; */
+    display: none;
+    z-index: 200;
+}
+
+.DropdownList{
+    position: absolute;
+    top: -5vh;
+    right: -10vw;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    z-index: 10;
+    display: none;
+    width: 100vw;
+    height: 100vmax;
+    animation: bg 0.3s forwards;
+    
+}
+@keyframes bg {
+    0% {background-color: rgba(255, 255, 255, 0);}
+    100% {background-color: rgb(0, 0, 0,0.85);}
+  }
+.DropdownList li{
+    position: relative;
+    text-decoration: none;
+    list-style: none;
+    font-size: 15vw;
+    color: white;
+    font-weight: 200;
+    letter-spacing: 1vmin;
+    font-family: 'Cormorant', serif;
+    top: 25%;
+    display: inline-block;
+    height: 0;
+    height: 20vmin;
+}
+.DropdownMenu{
+    position: relative;
+    right: 10vw;
+}
+.Icons{
+    position: relative;
+    color: white;
+    display: flex;
+    align-items: center;
+    z-index: 300;
+}
+
+.PersonName {
+    position: relative;
+    color: white;
+    padding: 0vh 6vw;
+    font-size: 4vmin;
+    letter-spacing: 1vmin;
+    font-family: 'Cormorant', serif;
+    font-weight: 200;
+    z-index: 30;
+}
+
+.DetailsBar {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-right: 5vw;
+    font-family: 'Cormorant', serif;
+    letter-spacing: 0.3vmin;
+}
+
+.NavbarProjects {
+    padding: 1.5vmin 3vmin;
+}
+
+.NavbarAbout {
+    float: right;
+}
+
+.display1{
+    display: block;
+}
+.display2{
+    display: none;
+}
+.display3{
+    transition: 0.3s;
+}
+
+/* /////////////////////////// */
+.SubHome{
+    margin-top: 5vh;
+    width: 95vw;
+}
+
+.mainDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+}
+.profileImg {
+    max-width: 90vw;
+    width: auto;
+    height: auto;
+    margin: 0 5vw;
+}
+.profileData {
+    z-index: -1;
+    position: relative;
+    top: -45vw;
+    font-size: 4vmin;
+    border: 5px solid White;
+    color: white;
+    padding: 0 2vmin;
+    border-radius: 5px;
+    width: auto;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    text-align: center;
+    height: auto;
+}
+.profileImg:hover {
+    opacity: 0;
+    transition: cubic-bezier(0.075, 0.82, 0.165, 1) 0.5s;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-weight: bold;
+}
+
+.personalLinks {
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    position: relative;
+    bottom: 5vh;
+    padding: 5vh 0;   
+}
+.bottomGrid1{
+    position: relative;
+    left: 5vw;
+    text-align: left;
+}
+.bottomGrid1 a{
+    color: white;
+    font-weight: 200;
+}
+.bottomGrid2{
+    position: relative;
+    right: 5vw;
+    text-align: right;
+}
+.bottomGrid2 span a{
+    color: white;
+    font-weight: 200;
+}
+/* media queries for footer personal links */
+
+@media only screen and (max-width: 650px) {
+    .personalLinks {
+        display: flex;
+        flex-direction: column;
+        color: white;
+        position: relative;
+        bottom: 5vh;
+        padding: 5vh 0;   
+    }
+    .bottomGrid1{
+        display: inline-block;
+        position: relative;
+        left: 5vw;
+        text-align: left;
+    }
+    .bottomGrid2{
+        float: left;
+        display: flex;
+        position: relative;
+        top: 2vh;
+        left: 5vw;
+        text-align: left;
+    }
+    
+  }

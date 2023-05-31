@@ -1,0 +1,47 @@
+body{
+    background-color: #282c34;
+    z-index: -10;
+}
+.Projects{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.projectDiv{
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    margin: 5vh 0vw 0 0vw;
+}
+.projectImg{
+    position: relative;
+    max-width: 90vw;
+    width: auto;
+    height: auto;
+    border-radius: 5px;
+}
+.projectImg:hover {
+    opacity: 0;
+    transition: 0.3s;
+}
+.detailed{
+    z-index: -1;
+    position: absolute;
+    /* top: -34vw; */
+    font-size: 3.5vmin;
+    border: 5px solid White;
+    color: white;
+    padding: 0 2vmin;
+    border-radius: 5px;
+    width: auto;
+    font-family: 'Permanent Marker', cursive;
+    font-weight: bold;
+    text-align: center;
+    height: auto;
+    margin-top: 5vh;
+    cursor: pointer;
+}
